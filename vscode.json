@@ -1,0 +1,80 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.guides.bracketPairs": true,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.fontFamily": "JetBrains mono",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontWeight": "500",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.7,
+  "editor.rulers": [],
+  "workbench.activityBar.location": "side",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "gutter",
+  "window.menuBarVisibility": "compact",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "default",
+  "explorer.compactFolders": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.semanticHighlighting.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": false,
+  "git.autofetch": true,
+  "symbols.hidesExplorerArrows": false,
+  "window.titleBarStyle": "custom",
+  "typescript.inlayHints.parameterNames.enabled": "none",
+  "terminal.integrated.fontSize": 14,
+  "chat.editor.wordWrap": "on",
+  "debug.console.wordWrap": true,
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "[*]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
