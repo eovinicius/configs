@@ -14,6 +14,8 @@
   "workbench.activityBar.location": "hidden",
   "workbench.startupEditor": "newUntitledFile",
   "editor.renderLineHighlight": "gutter",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
   "window.menuBarVisibility": "compact",
   "editor.fontLigatures": true,
   "workbench.editor.labelFormat": "default",
