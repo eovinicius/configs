@@ -33,6 +33,7 @@
   "editor.wordBasedSuggestions": "off",
   "editor.suggest.localityBonus": false,
   "git.autofetch": true,
+  "csharpextensions.useFileScopedNamespace": true,
   "symbols.hidesExplorerArrows": false,
   "window.titleBarStyle": "custom",
   "typescript.inlayHints.parameterNames.enabled": "none",
