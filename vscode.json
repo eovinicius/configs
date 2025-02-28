@@ -46,6 +46,9 @@
   "editor.wordBasedSuggestions": "off", // Desativa sugestões baseadas em palavras do documento
   "editor.suggest.localityBonus": false, // Desativa prioridade para sugestões locais
   "editor.tabCompletion": "on", // Habilita preenchimento automático ao pressionar Tab
+  "github.copilot.enable": { "*": true }, // Habilita o GitHub Copilot em todos os arquivos
+  "github.copilot.editor.enableAutoCompletions": true, // Habilita autocompletar do Copilot no editor
+  "editor.inlineSuggest.suppressSuggestions": true, // Suprime sugestões de autocompletar integradas para evitar conflitos com o Copilot
 
   // ====== Configurações de Rolagem e Navegação ======
   "editor.scrollbar.vertical": "hidden", // Oculta barra de rolagem vertical
@@ -75,10 +78,15 @@
   // ====== Configuração de Banco de Dados ======
   "mssql.enableRichExperiences": true, // Habilita experiências avançadas no SQL Server
   "mssql.objectExplorer.groupBySchema": false, // Agrupa objetos do banco de dados por esquema
+  "mssql.enableQueryHistoryCapture": false, // Desativa captura de histórico de consultas no SQL Server
 
   // ====== Configurações de Quebra de Linha ======
   "chat.editor.wordWrap": "on", // Habilita quebra de linha no chat
   "debug.console.wordWrap": true, // Habilita quebra de linha no console de depuração
   "diffEditor.wordWrap": "on", // Habilita quebra de linha no editor de diferenças
-  "editor.wordWrap": "on" // Habilita quebra de linha no editor
+  "editor.wordWrap": "on", // Habilita quebra de linha no editor
+
+  // ====== Configurações do Cody ======
+  "cody.commandCodeLenses": false, // Desativa o recurso de Code Lenses no Cody
+  "cody.suggestions.mode": "off" // Desativa sugestões do Cody
 }
