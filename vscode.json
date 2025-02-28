@@ -41,15 +41,6 @@
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Fonte do terminal
   "terminal.integrated.fontSize": 14, // Tamanho da fonte do terminal
 
-  // ====== Configurações de Sugestões e Auto Completar ======
-  "editor.acceptSuggestionOnEnter": "on", // Aceita sugestões ao pressionar Enter
-  "editor.wordBasedSuggestions": "off", // Desativa sugestões baseadas em palavras do documento
-  "editor.suggest.localityBonus": false, // Desativa prioridade para sugestões locais
-  "editor.tabCompletion": "on", // Habilita preenchimento automático ao pressionar Tab
-  "github.copilot.enable": { "*": true }, // Habilita o GitHub Copilot em todos os arquivos
-  "github.copilot.editor.enableAutoCompletions": true, // Habilita autocompletar do Copilot no editor
-  "editor.inlineSuggest.suppressSuggestions": true, // Suprime sugestões de autocompletar integradas para evitar conflitos com o Copilot
-
   // ====== Configurações de Rolagem e Navegação ======
   "editor.scrollbar.vertical": "hidden", // Oculta barra de rolagem vertical
   "editor.scrollbar.horizontal": "hidden", // Oculta barra de rolagem horizontal
@@ -86,7 +77,17 @@
   "diffEditor.wordWrap": "on", // Habilita quebra de linha no editor de diferenças
   "editor.wordWrap": "on", // Habilita quebra de linha no editor
 
+  // ====== Configurações de Sugestões e Auto Completar ======
+  "editor.acceptSuggestionOnEnter": "on", // Aceita sugestões ao pressionar Enter
+  "editor.wordBasedSuggestions": "off", // Desativa sugestões baseadas em palavras do documento
+  "editor.suggest.localityBonus": false, // Desativa prioridade para sugestões locais
+  "editor.tabCompletion": "on", // Habilita preenchimento automático ao pressionar Tab
+  "github.copilot.enable": { "*": false }, // Habilita o GitHub Copilot em todos os arquivos
+  "github.copilot.editor.enableAutoCompletions": false, // Habilita autocompletar do Copilot no editor
+  "editor.inlineSuggest.suppressSuggestions": true, // Suprime sugestões de autocompletar integradas para evitar conflitos com o Copilot
+
   // ====== Configurações do Cody ======
-  "cody.commandCodeLenses": false, // Desativa o recurso de Code Lenses no Cody
-  "cody.suggestions.mode": "off" // Desativa sugestões do Cody
+  "cody.suggestions.mode": "off", // Desativa sugestões do Cody
+  "cody.autocomplete.formatOnAccept": false, // Formata o código ao aceitar sugestões do Cody
+  "cody.autocomplete.languages": { "*": false } // Habilita autocompletar do Cody em todos os arquivos
 }
