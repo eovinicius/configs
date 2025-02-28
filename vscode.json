@@ -1,116 +1,84 @@
 {
-  "files.autoSave": "afterDelay",
-  "editor.guides.bracketPairs": true,
-  "workbench.colorTheme": "Rosé Pine",
-  "workbench.iconTheme": "charmed-icons",
-  "workbench.productIconTheme": "material-product-icons",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.fontWeight": "bold",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
-  "editor.rulers": [],
-  "workbench.activityBar.location": "hidden",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.renderLineHighlight": "gutter",
-  "editor.fontLigatures": true,
-  "workbench.editor.labelFormat": "default",
-  "explorer.compactFolders": false,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.minimap.enabled": false,
-  "editor.minimap.renderCharacters": false,
-  "editor.semanticHighlighting.enabled": false,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
-  "breadcrumbs.enabled": false,
-  "window.menuBarVisibility": "compact",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.tabCompletion": "on",
-  "editor.wordBasedSuggestions": "off",
-  "editor.suggest.localityBonus": false,
-  "git.autofetch": true,
-  "symbols.hidesExplorerArrows": false,
-  "window.titleBarStyle": "custom",
-  "typescript.inlayHints.parameterNames.enabled": "none",
-  "terminal.integrated.fontSize": 14,
-  "chat.editor.wordWrap": "on",
-  "csharpextensions.useFileScopedNamespace": true,
-  "debug.console.wordWrap": true,
-  "diffEditor.wordWrap": "on",
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "expand",
+  // ====== Configurações de Salvamento e Formatação ======
+  "files.autoSave": "afterDelay", // Salva automaticamente após um pequeno atraso
+  "editor.formatOnSave": true, // Formata o código ao salvar
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
-    "source.organizeImports": "always"
+    "source.fixAll": "always", // Aplica todas as correções automáticas ao salvar
+    "source.organizeImports": "always" // Organiza imports automaticamente
   },
-  "[*]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Define o formatador padrão
+
+  // ====== Configurações de Aparência ======
+  "workbench.colorTheme": "Rosé Pine (no italics)", // Tema do VS Code
+  "workbench.iconTheme": "symbols", // Ícones de arquivos personalizados
+  "workbench.productIconTheme": "material-product-icons", // Ícones de produtos personalizados
+  "editor.fontFamily": "JetBrainsMono Nerd Font", // Fonte do editor
+  "editor.fontWeight": "bold", // Peso da fonte
+  "editor.fontSize": 14, // Tamanho da fonte
+  "editor.lineHeight": 1.8, // Altura da linha
+  "editor.renderLineHighlight": "gutter", // Destaca a linha atual apenas na lateral
+  "editor.fontLigatures": true, // Habilita ligaduras tipográficas
+  "editor.lineNumbers": "relative", // Exibe números de linha relativos
+  "editor.rulers": [], // Define guias visuais para largura de código (vazio = desativado)
+  "editor.minimap.enabled": false, // Desativa minimapa
+  "editor.minimap.renderCharacters": false, // Não renderiza caracteres no minimapa
+  "editor.semanticHighlighting.enabled": false, // Habilita realce semântico
+  "material-icon-theme.folders.theme": "specific", // Define o tema de ícones de pastas
+
+  // ====== Configurações da Interface ======
+  "workbench.activityBar.location": "hidden", // Oculta a barra de atividades
+  "workbench.startupEditor": "newUntitledFile", // Abre um novo arquivo ao iniciar o VS Code
+  "window.menuBarVisibility": "compact", // Exibe a barra de menu em modo compacto
+  "window.titleBarStyle": "custom", // Usa um estilo personalizado para a barra de título
+  "window.commandCenter": false, // Oculta o Command Center
+  "workbench.layoutControl.enabled": false, // Desativa controle de layout
+  "breadcrumbs.enabled": false, // Desativa breadcrumbs
+  "explorer.compactFolders": false, // Mantém a exibição de pastas não compactada
+  "symbols.hidesExplorerArrows": false, // Mantém as setas do Explorer visíveis
+
+  // ====== Configurações do Terminal ======
+  "terminal.integrated.defaultProfile.windows": "PowerShell", // Define o PowerShell como terminal padrão
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Fonte do terminal
+  "terminal.integrated.fontSize": 14, // Tamanho da fonte do terminal
+
+  // ====== Configurações de Sugestões e Auto Completar ======
+  "editor.acceptSuggestionOnEnter": "on", // Aceita sugestões ao pressionar Enter
+  "editor.wordBasedSuggestions": "off", // Desativa sugestões baseadas em palavras do documento
+  "editor.suggest.localityBonus": false, // Desativa prioridade para sugestões locais
+  "editor.tabCompletion": "on", // Habilita preenchimento automático ao pressionar Tab
+
+  // ====== Configurações de Rolagem e Navegação ======
+  "editor.scrollbar.vertical": "hidden", // Oculta barra de rolagem vertical
+  "editor.scrollbar.horizontal": "hidden", // Oculta barra de rolagem horizontal
+  "editor.cursorSmoothCaretAnimation": "on", // Animação suave do cursor
+  "editor.cursorBlinking": "expand", // Tipo de piscagem do cursor
+
+  // ====== Configuração de Versionamento ======
+  "git.autofetch": true, // Busca automaticamente mudanças do repositório remoto
+
+  // ====== Configuração de Linguagens ======
+  "csharpextensions.useFileScopedNamespace": true, // Usa namespaces no estilo file-scoped para C#
   "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
+    "editor.defaultFormatter": "ms-dotnettools.csharp" // Define o formatador padrão para C#
   },
   "[go]": {
-    "editor.defaultFormatter": "golang.go"
+    "editor.defaultFormatter": "golang.go" // Define o formatador padrão para Go
   },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Define o formatador padrão para JSON
   },
-  "github.copilot.editor.enableAutoCompletions": true,
-  "go.toolsManagement.autoUpdate": true,
-  "material-icon-theme.folders.theme": "specific",
-  "files.associations": {
-    ".env*": "dotenv"
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker" // Define o formatador para Dockerfile
   },
-  "editor.tokenColorCustomizations": {
-    "[*Light*]": {
-      "textMateRules": [
-        {
-          "scope": "ref.matchtext",
-          "settings": {
-            "foreground": "#000"
-          }
-        }
-      ]
-    },
-    "[*Dark*]": {
-      "textMateRules": [
-        {
-          "scope": "ref.matchtext",
-          "settings": {
-            "foreground": "#fff"
-          }
-        }
-      ]
-    },
-    "textMateRules": [
-      {
-        "scope": "keyword.other.dotenv",
-        "settings": {
-          "foreground": "#FF000000"
-        }
-      }
-    ]
-  },
-  "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.js",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.tsx": "${capture}.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-    "*.sqlite": "${capture}.${extname}-*",
-    "*.db": "${capture}.${extname}-*",
-    "*.sqlite3": "${capture}.${extname}-*",
-    "*.db3": "${capture}.${extname}-*",
-    "*.sdb": "${capture}.${extname}-*",
-    "*.s3db": "${capture}.${extname}-*"
-  }
+  "go.toolsManagement.autoUpdate": true, // Atualiza automaticamente ferramentas do Go
+
+  // ====== Configuração de Banco de Dados ======
+  "mssql.enableRichExperiences": true, // Habilita experiências avançadas no SQL Server
+  "mssql.objectExplorer.groupBySchema": false, // Agrupa objetos do banco de dados por esquema
+
+  // ====== Configurações de Quebra de Linha ======
+  "chat.editor.wordWrap": "on", // Habilita quebra de linha no chat
+  "debug.console.wordWrap": true, // Habilita quebra de linha no console de depuração
+  "diffEditor.wordWrap": "on", // Habilita quebra de linha no editor de diferenças
+  "editor.wordWrap": "on" // Habilita quebra de linha no editor
 }
