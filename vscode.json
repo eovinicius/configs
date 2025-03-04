@@ -52,6 +52,7 @@
 
   // ====== Configuração de Linguagens ======
   "csharpextensions.useFileScopedNamespace": true, // Usa namespaces no estilo file-scoped para C#
+  "csharpextensions.includeNamespaces": false, // Habilita autocompletar do Cody em todos os arquivos
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp" // Define o formatador padrão para C#
   },
