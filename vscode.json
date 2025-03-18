@@ -9,7 +9,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode", // Define o formatador padrão
 
   // ====== Configurações de Aparência ======
-  "workbench.colorTheme": "Rosé Pine (no italics)", // Tema do VS Code
+  "workbench.colorTheme": "Vesper", // Tema do VS Code
   "workbench.iconTheme": "symbols", // Ícones de arquivos personalizados
   "workbench.productIconTheme": "material-product-icons", // Ícones de produtos personalizados
   "editor.fontFamily": "JetBrainsMono Nerd Font", // Fonte do editor
@@ -86,8 +86,6 @@
   "github.copilot.enable": { "*": false }, // Habilita o GitHub Copilot em todos os arquivos
   "github.copilot.editor.enableAutoCompletions": false, // Habilita autocompletar do Copilot no editor
   "editor.inlineSuggest.suppressSuggestions": true, // Suprime sugestões de autocompletar integradas para evitar conflitos com o Copilot
-
-  // ====== Configurações do Cody ======
   "cody.suggestions.mode": "off", // Desativa sugestões do Cody
   "cody.autocomplete.formatOnAccept": false, // Formata o código ao aceitar sugestões do Cody
   "cody.autocomplete.languages": { "*": false } // Habilita autocompletar do Cody em todos os arquivos
