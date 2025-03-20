@@ -27,6 +27,7 @@
 
   // ====== Configurações da Interface ======
   "workbench.activityBar.location": "hidden", // Oculta a barra de atividades
+  "workbench.sideBar.location": "right", // Move a barra lateral para o lado direito
   "workbench.startupEditor": "newUntitledFile", // Abre um novo arquivo ao iniciar o VS Code
   "window.menuBarVisibility": "compact", // Exibe a barra de menu em modo compacto
   "window.titleBarStyle": "custom", // Usa um estilo personalizado para a barra de título
