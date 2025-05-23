@@ -36,6 +36,7 @@
   "breadcrumbs.enabled": false, // Desativa breadcrumbs
   "explorer.compactFolders": false, // Mantém a exibição de pastas não compactada
   "symbols.hidesExplorerArrows": false, // Mantém as setas do Explorer visíveis
+  "workbench.editor.wrapTabs": true, // Habilita quebra de abas
 
   // ====== Configurações do Terminal ======
   "terminal.integrated.defaultProfile.windows": "PowerShell", // Define o PowerShell como terminal padrão
